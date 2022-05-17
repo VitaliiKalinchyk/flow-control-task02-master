@@ -1,4 +1,4 @@
-# Flow control. Loop statements.
+# Sum of binary 1
 
 The purpose of this exercise is to train you to work with loop statements.
 
@@ -9,7 +9,6 @@ Please, proceed to [`LoopStatements`](src/main/java/com/epam/rd/autotasks/LoopSt
 and implement its static methods:
 ---
 * `int task2(int n)`\
-  Task 2:
   For a positive integer n calculate the result value, which is equal to the amount of the “1” in the binary
   representation of n.
   
@@ -26,22 +25,12 @@ Code Sample:
 ```java
 ...
 System.out.println(LoopStatements.task2(14));
-```
-
-Output:
-```
-3
-```
-
----
-Code Sample:
-```java
-...
 System.out.println(LoopStatements.task2(128));
 ```
 
 Output:
 ```
+3
 1
 ```
 
