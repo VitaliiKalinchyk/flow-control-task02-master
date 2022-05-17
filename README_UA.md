@@ -7,7 +7,6 @@
 і реалізувати його статичні методи:
 ---
 * `int task2(int n)`\
-  Завдання 2:
   Для додатнього цілого числа n обчисліть значення, яке дорівнює сумі «1» у двійковому
   представленні числа n.
 ### Приклад:
@@ -23,22 +22,13 @@ Code Sample:
 ```java
 ...
         System.out.println(LoopStatements.task2(14));
+        System.out.println(LoopStatements.task2(128));
 ```
 
 Output:
 ```
 3
-```
-
----
-Code Sample:
-```java
-...
-System.out.println(LoopStatements.task2(128));
-```
-
-Output:
-```
 1
 ```
+
 
