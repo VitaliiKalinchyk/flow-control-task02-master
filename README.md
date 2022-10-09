@@ -8,7 +8,7 @@ Estimated workload of this exercise is _30 min_.
 Please, proceed to [`LoopStatements`](src/main/java/com/epam/rd/autotasks/LoopStatements.java) class
 and implement its static methods:
 ---
-* `int task2(int n)`\
+* `int sumOfBinary(int n)`\
   For a positive integer n calculate the result value, which is equal to the amount of the “1” in the binary
   representation of n.
   
@@ -24,8 +24,8 @@ and implement its static methods:
 Code Sample:
 ```java
 ...
-System.out.println(LoopStatements.task2(14));
-System.out.println(LoopStatements.task2(128));
+System.out.println(LoopStatements.sumOfBinary(14));
+System.out.println(LoopStatements.sumOfBinary(128));
 ```
 
 Output:
